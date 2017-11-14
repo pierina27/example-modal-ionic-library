@@ -1,0 +1,12 @@
+<ion-modal-view>
+    <ion-header-bar>
+      <h1 class="title">{{libro[0].titulo}}</h1>
+    </ion-header-bar>
+    <ion-content>
+      <h2>Autor: {{ libro[0].autor }}</h2>
+      <img src="{{libro[0].portada}}" />
+      <div>Reseña: {{ libro[0].descripcion }}</div>
+      </row>
+      		<div class="button button-assertive button-positive" ng-click="cerrarModal()">Cerrar</div>
+    </ion-content>
+  </ion-modal-view>
